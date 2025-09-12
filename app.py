@@ -1,5 +1,9 @@
 import streamlit as st
 
+def calculate_power(base, exponent):
+    return base ** exponent
+
+
 st.title("Power Calculator")
 st.write("Enter a number and the power you want to raise it to:")
 
