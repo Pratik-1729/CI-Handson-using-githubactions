@@ -2,7 +2,7 @@ import pytest
 from app import calculate_power
 
 def test_positive_power():
-    assert calculate_power(2,3) == 8, "test failed : ❌ 2^3 should be 8"
+    assert calculate_power(2,3) == 7, "test failed : ❌ 2^3 should be 8"
     assert calculate_power(5,2) == 25, "test failed : ❌ 5^2 should be 25"
 
 def test_zero_power():
