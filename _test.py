@@ -17,5 +17,5 @@ def test_one_power():
     assert calculate_power(7, 1) == 7, "test failed : ❌ 7^1 should be 7"
     assert calculate_power(1, 100) == 1, "test failed : ❌ 1^100 should be 1"
 
-def test_large_power():
+def test_la:
     assert calculate_power(2, 10) == 1024, "test failed : ❌ 2^10 should be 1024"
