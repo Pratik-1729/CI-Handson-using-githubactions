@@ -19,3 +19,5 @@ def test_one_power():
 
 def test_la:
     assert calculate_power(2, 10) == 1024, "test failed : ❌ 2^10 should be 1024"
+
+def()
